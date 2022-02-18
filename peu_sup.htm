@@ -1,0 +1,176 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<meta name="Microsoft Border" content="none">
+<script language="Javascript">
+        function ISOKForMe() {
+                if (navigator.appName== "Netscape" && parseInt(navigator.appVersion) >= 3 ) {
+                        return true;
+                } else if (navigator.appName == "Microsoft Internet Explorer" && parseFloat( navigator.appVersion ) >= 3.01 ) {
+                        return true;
+                }
+                return false;
+        }
+        if ( ISOKForMe() ) {
+                	standard        = new MakeArray(4)
+                	over            = new MakeArray(4)
+                	standard[1].src         = "menu.gif"
+                	standard[2].src         = "qui_som.gif"
+                	standard[3].src         = "rec_hum.gif"
+                	standard[4].src         = "rec_mat.gif"
+                over[1].src         = "menu1.gif"
+                over[2].src         = "qui_som1.gif"
+                over[3].src         = "rec_hum1.gif"
+                over[4].src         = "rec_mat1.gif"
+        }
+        function MakeArray(n) {
+
+                if ( ISOKForMe() ) {
+
+                        this.length = n
+
+                        for (var i = 1; i<=n; i++) {
+
+                                this[i] = new Image()
+
+                        }
+
+                        return this
+
+                }
+
+        }
+
+
+
+        function msover(num) {
+
+                if ( ISOKForMe() ) {
+
+                        if (over[num].src != "") {
+
+
+
+                                        if ( num == 1 ) {
+
+                                                document.uno.src = over[num].src
+
+                                                                                                                                                               
+
+                                        }   
+
+                                        if ( num == 2 ) {
+
+                                                document.dos.src = over[num].src
+
+                                                                         
+
+                                        } 
+
+                                                                                if ( num == 3 ) {
+
+                                                document.tres.src = over[num].src
+
+                                                                         
+
+                                        } 
+
+                                                                                if ( num == 4 ) {
+
+                                                document.cuatro.src = over[num].src
+
+                                                                         
+
+                                        } 
+
+                                }
+
+                }
+
+        }
+
+
+
+        
+
+        
+
+        function msout(num) {
+
+                if ( ISOKForMe() ) {
+
+                        if (standard[num].src != "") {
+
+                                if ( num == 1 ) {
+
+                                        document.uno.src = standard[num].src
+
+                                                                                                
+
+                                }
+
+                                if ( num == 2 ) {
+
+                                        document.dos.src = standard[num].src
+
+                                                                                                
+
+                                }
+
+                                                                if ( num == 3 ) {
+
+                                        document.tres.src = standard[num].src
+
+                                                                                                
+
+                                }
+
+                                                                if ( num == 4 ) {
+
+                                        document.cuatro.src = standard[num].src
+
+                                                                                                
+
+                                }
+                                     
+
+                         }
+
+                       
+
+                        
+
+                }                   
+
+        }
+
+
+
+
+
+
+
+
+
+</script>
+
+<base target="principal">
+<title>Indice</title>
+</head>
+
+<body topmargin="0" leftmargin="0" bgcolor="#FFFFFF" text="#000080">
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="index.htm" target="_top" onmouseover="msover(1);return true"
+    onmouseout="msout(1);return true"><img src="menu.gif" width="64" height="35" alt="Menú"
+    border="0" name="uno"></a></td>
+    <td valign="middle" align="center"></td>
+    <td valign="middle" align="center"></td>
+    <td valign="middle" align="center"></td>
+  </tr>
+</table>
+</body>
+</html>
